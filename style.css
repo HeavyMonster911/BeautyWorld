@@ -81,6 +81,10 @@ section {
     background: #fff;
     color: #333;
     text-decoration: none;
+    transition: 0.5s;
+}
+.btn:hover {
+    background: rgb(179, 179, 179);
 }
 .fitbg {
     position: absolute;
@@ -214,6 +218,13 @@ section {
     font-weight: 300;
     opacity: 0.5;
 }
+.destination .destinationList a {
+    opacity: 0.5;
+}
+.destination .destinationList a:hover {
+    opacity: 1;
+    background: #fff;
+}
 .destination .btn {
     transition: 0.5s;
 }
@@ -229,6 +240,9 @@ section {
     align-items: center;
     flex-direction: column;
 }
+.footer a {
+    transition: 0.5s;
+}
 .footer .sci {
     position: relative;
     display: flex;
@@ -242,6 +256,9 @@ section {
 }
 .footer .sci li a {
     margin: 0 20px;
+}
+.footer .sci li a:hover {
+    opacity: 0.5;
 }
 .footer .sci li a img {
     filter: invert(1);
@@ -257,6 +274,9 @@ section {
 }
 .footer h4 a {
     color: #fff;
+}
+.footer h4 a:hover {
+    opacity: 0.5;
 }
 
 
