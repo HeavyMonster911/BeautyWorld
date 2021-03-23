@@ -116,6 +116,15 @@ section {
     color: #fff;
     font-size: 1em;
 }
+.about .imgBx {
+    position: relative;
+    min-height: 50%;
+    width: 50%;
+    min-height: 500px;
+}
+.about .imgBx .fitbg {
+    border-radius: 10px;
+}
 
 
 
@@ -271,5 +280,10 @@ section {
         text-align: center;
         padding: 0;
         padding-bottom: 20px;
+    }
+    .about .imgBx {
+        display: none;
+        visibility: hidden;
+        opacity: 0;
     }
 }
